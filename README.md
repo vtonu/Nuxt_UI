@@ -1,9 +1,4 @@
-<<<<<<< Updated upstream
 ![image](https://github.com/vtonu/Nuxt_UI/assets/56773210/fd6d814a-19a9-41ed-bc8b-e2518a151118)
-
-=======
-![Alt text](image.png)
->>>>>>> Stashed changes
 
 # Nuxt 3 Minimal Starter
 
