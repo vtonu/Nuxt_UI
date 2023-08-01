@@ -12,9 +12,14 @@ const isDark = computed({
 </script>
 
 <template>
-  <UCard>
+  <UCard class="m-8">
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
+      molestiae perferendis expedita magnam adipisci, assumenda voluptatem
+      dignissimos? Atque nisi ex cum iure laboriosam nihil, doloremque
+      reprehenderit est fugiat, totam consequuntur? <br /><br />
+    </p>
     <template #header />
-
     <UTabs :items="items" :default-index="2" />
     <ClientOnly>
       <UButton
