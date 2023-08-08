@@ -9,10 +9,28 @@ const isDark = computed({
     colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark';
   },
 });
+// Accordion dropdowns
+const items = [
+  {
+    label: 'Getting Started',
+    icon: 'i-heroicons-information-circle',
+    defaultOpen: true,
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
+  },
+  {
+    label: 'Installation',
+    icon: 'i-heroicons-arrow-down-tray',
+    disabled: true,
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
+  },
+];
 </script>
 
 <template>
   <UCard class="m-8">
+    <UAccordion color="primary" variant="outline" size="sm" :items="items" />
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
       molestiae perferendis expedita magnam adipisci, assumenda voluptatem
@@ -27,7 +45,7 @@ const isDark = computed({
           isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'
         "
         color="gray"
-        variant="ghost"
+        variant="outline"
         aria-label="Theme"
         @click="isDark = !isDark"
       />
