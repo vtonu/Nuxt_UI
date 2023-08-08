@@ -12,14 +12,14 @@ const isDark = computed({
 // Accordion dropdowns
 const items = [
   {
-    label: 'Getting Started',
+    label: 'Rules',
     icon: 'i-heroicons-information-circle',
-    defaultOpen: true,
+    defaultOpen: false,
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
   },
   {
-    label: 'Installation',
+    label: 'Instructions',
     icon: 'i-heroicons-arrow-down-tray',
     disabled: true,
     content:
@@ -29,7 +29,7 @@ const items = [
 </script>
 
 <template>
-  <UCard class="m-8">
+  <UCard class="m-10">
     <UAccordion color="primary" variant="outline" size="sm" :items="items" />
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
