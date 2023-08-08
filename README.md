@@ -1,4 +1,4 @@
-![image](https://github.com/vtonu/Nuxt_UI/assets/56773210/11335f29-b4e3-45b0-84f0-61e39f01f95e)
+![image](https://github.com/vtonu/Nuxt_UI/assets/56773210/c2018521-bb05-4258-9abf-dcd7bc782ab3)
 
 # Nuxt 3 Minimal Starter
 
