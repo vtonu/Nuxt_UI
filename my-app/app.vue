@@ -1,6 +1,5 @@
 <script setup>
 const colorMode = useColorMode();
-
 const isDark = computed({
   get() {
     return colorMode.value === 'dark';
@@ -113,7 +112,6 @@ const items = [
       on 3D as it relates to the video game industry. <br /><br />
     </p>
     <UAccordion color="primary" variant="outline" size="sm" :items="items" />
-    <UTabs :items="items" :default-index="2" />
     <template #footer />
   </UCard>
 </template>
