@@ -11,70 +11,71 @@ const isDark = computed({
 // Accordion dropdowns
 const items = [
   {
-    label: 'GAME124_Tonu_P1',
+    label: 'Project 1',
+    icon: 'i-heroicons-information-circle',
+    defaultOpen: false,
+    slot: 'getting-started',
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
+  },
+  {
+    label: 'Project 2',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
   },
   {
-    label: 'GAME124_Tonu_P2',
+    label: 'Project 3',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
   },
   {
-    label: 'GAME124_Tonu_P3',
+    label: 'Project 4',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
   },
   {
-    label: 'GAME124_Tonu_P4',
+    label: 'Project 5',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
   },
   {
-    label: 'GAME124_Tonu_P5',
+    label: 'Project 6',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
   },
   {
-    label: 'GAME124_Tonu_P6',
+    label: 'Project 7',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
   },
   {
-    label: 'GAME124_Tonu_P7',
+    label: 'Project 8',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
   },
   {
-    label: 'GAME124_Tonu_P8',
+    label: 'Project 9',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
   },
   {
-    label: 'GAME124_Tonu_P9',
-    icon: 'i-heroicons-information-circle',
-    defaultOpen: false,
-    content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
-  },
-  {
-    label: 'GAME124_Tonu_FinalProject',
+    label: 'Final Project',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     content:
@@ -85,24 +86,24 @@ const items = [
 
 <template>
   <UCard class="m-8">
-    <template #header />
-    <ClientOnly>
-      <UButton
-        :icon="
-          isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'
-        "
-        color="gray"
-        variant="outline"
-        aria-label="Theme"
-        @click="isDark = !isDark"
-      />
+    <template #header>
+      <ClientOnly>
+        <UButton
+          :icon="
+            isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'
+          "
+          color="gray"
+          variant="outline"
+          aria-label="Theme"
+          @click="isDark = !isDark"
+        />
 
-      <template #fallback>
-        <div class="w-8 h-8" />
-      </template>
-    </ClientOnly>
+        <template #fallback>
+          <div class="w-8 h-8" />
+        </template> </ClientOnly
+    ></template>
     <h3 class="text-xl font-bold text-gray-900 dark:text-white pt-2">
-      Introduction to 3D with Maya<br /><br />
+      GAME 124 - Introduction to 3D with Maya<br /><br />
     </h3>
     <p>
       This course is an introduction to the 3D content creation process as
@@ -111,7 +112,20 @@ const items = [
       small scenes and render those scenes into movies. Emphasis will be placed
       on 3D as it relates to the video game industry. <br /><br />
     </p>
-    <UAccordion color="primary" variant="outline" size="sm" :items="items" />
-    <template #footer />
+    <UAccordion color="primary" variant="outline" size="sm" :items="items">
+      <template #getting-started>
+        <div class="flex flex-col justify-center items-center gap-1">
+          <img
+            class="object-cover h-48 w-96"
+            src="https://avatars.githubusercontent.com/u/56773210?v=4"
+            alt="Project Image"
+          />
+          <p class="text-sm text-gray-500 dark:text-gray-400">
+            Fully styled and customizable components for Nuxt.
+          </p>
+        </div>
+      </template></UAccordion
+    >
+    <!-- <template #footer /> -->
   </UCard>
 </template>
