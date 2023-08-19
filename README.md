@@ -1,4 +1,4 @@
-![image](https://github.com/vtonu/Nuxt_UI/assets/56773210/c2018521-bb05-4258-9abf-dcd7bc782ab3)
+Intro to Maya Project
 
 # Nuxt 3 Minimal Starter
 
