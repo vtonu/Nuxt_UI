@@ -12,16 +12,16 @@ const isDark = computed({
 // Accordion dropdowns
 const items = [
   {
-    label: 'Rules',
+    label: 'GAME124_Tonu_P1',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
   },
   {
-    label: 'Instructions',
-    icon: 'i-heroicons-arrow-down-tray',
-    disabled: true,
+    label: 'GAME124_Tonu_P2',
+    icon: 'i-heroicons-information-circle',
+    defaultOpen: false,
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
   },
@@ -30,15 +30,7 @@ const items = [
 
 <template>
   <UCard class="m-10">
-    <UAccordion color="primary" variant="outline" size="sm" :items="items" />
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
-      molestiae perferendis expedita magnam adipisci, assumenda voluptatem
-      dignissimos? Atque nisi ex cum iure laboriosam nihil, doloremque
-      reprehenderit est fugiat, totam consequuntur? <br /><br />
-    </p>
     <template #header />
-    <UTabs :items="items" :default-index="2" />
     <ClientOnly>
       <UButton
         :icon="
@@ -54,6 +46,18 @@ const items = [
         <div class="w-8 h-8" />
       </template>
     </ClientOnly>
+    <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+      Introduction to 3D with Maya <br /><br />
+    </h3>
+    <p>
+      This course is an introduction to the 3D content creation process as
+      practiced in Maya. Best practices for 3D modeling, texturing, file
+      management, and animation will be examined. Students will build several
+      small scenes and render those scenes into movies. Emphasis will be placed
+      on 3D as it relates to the video game industry. <br /><br />
+    </p>
+    <UAccordion color="primary" variant="outline" size="sm" :items="items" />
+    <UTabs :items="items" :default-index="2" />
     <template #footer />
   </UCard>
 </template>
