@@ -76,12 +76,12 @@ const items = [
 </script>
 
 <template>
-  <UCard class="m-8">
+  <UCard class="m-8 ring ring-green-500 ring-offset-2">
     <template #header>
       <ClientOnly>
         <UButton
           :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'"
-          color="gray"
+          color="gray ring ring-green-500 ring-offset-2"
           variant="outline"
           aria-label="Theme"
           @click="isDark = !isDark" />
