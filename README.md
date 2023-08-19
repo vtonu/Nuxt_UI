@@ -1,5 +1,7 @@
 Intro to Maya Project
 
+![image](https://github.com/vtonu/Nuxt_UI/assets/56773210/7f3fbdaa-5a19-4911-8bee-ee6910aa8b53)
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
