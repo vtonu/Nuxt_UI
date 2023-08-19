@@ -25,6 +25,62 @@ const items = [
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
   },
+  {
+    label: 'GAME124_Tonu_P3',
+    icon: 'i-heroicons-information-circle',
+    defaultOpen: false,
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
+  },
+  {
+    label: 'GAME124_Tonu_P4',
+    icon: 'i-heroicons-information-circle',
+    defaultOpen: false,
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
+  },
+  {
+    label: 'GAME124_Tonu_P5',
+    icon: 'i-heroicons-information-circle',
+    defaultOpen: false,
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
+  },
+  {
+    label: 'GAME124_Tonu_P6',
+    icon: 'i-heroicons-information-circle',
+    defaultOpen: false,
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
+  },
+  {
+    label: 'GAME124_Tonu_P7',
+    icon: 'i-heroicons-information-circle',
+    defaultOpen: false,
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
+  },
+  {
+    label: 'GAME124_Tonu_P8',
+    icon: 'i-heroicons-information-circle',
+    defaultOpen: false,
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
+  },
+  {
+    label: 'GAME124_Tonu_P9',
+    icon: 'i-heroicons-information-circle',
+    defaultOpen: false,
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
+  },
+  {
+    label: 'GAME124_Tonu_FinalProject',
+    icon: 'i-heroicons-information-circle',
+    defaultOpen: false,
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.',
+  },
 ];
 </script>
 
@@ -46,8 +102,8 @@ const items = [
         <div class="w-8 h-8" />
       </template>
     </ClientOnly>
-    <h3 class="text-xl font-bold text-gray-900 dark:text-white">
-      Introduction to 3D with Maya <br /><br />
+    <h3 class="text-xl font-bold text-gray-900 dark:text-white pt-2">
+      Introduction to 3D with Maya<br /><br />
     </h3>
     <p>
       This course is an introduction to the 3D content creation process as
