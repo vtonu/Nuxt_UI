@@ -84,7 +84,7 @@ const items = [
 </script>
 
 <template>
-  <UCard class="m-10">
+  <UCard class="m-8">
     <template #header />
     <ClientOnly>
       <UButton
