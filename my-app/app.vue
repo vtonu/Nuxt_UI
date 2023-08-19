@@ -13,7 +13,7 @@ const items = [
   {
     label: 'Project 1 - Basic Navigation and Object Manipulation',
     icon: 'i-heroicons-information-circle',
-    defaultOpen: false,
+    defaultOpen: true,
     slot: 'project-1',
     /* content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.', */
@@ -110,8 +110,9 @@ const items = [
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using the scene provided, create and position all necessary objects required to recreate
             each of the object groups. Each group must be created to be within .1 units (set to
-            centimeters) of accuracy. The purpose of this assignment is to give ample exposure to
-            the basic Maya navigation control, object creation tools, and basic manipulation tools.
+            centimeters) of accuracy. <br /><br />The purpose of this assignment is to give ample
+            exposure to the basic Maya navigation control, object creation tools, and basic
+            manipulation tools.
           </p>
         </div>
       </template>
@@ -125,10 +126,11 @@ const items = [
             Using the provided scene, recreate each of the objects by creating objects, and editing
             their components. Each object should be recreated to within .01 units of accuracy. Each
             object should be modeled from a single contiguous starting object, and should not be
-            built using multiple separate objects. Combine and group objects to match the provided
-            formations. Name groups and objects, center their pivots, freeze transformations and
-            delete all construction history. The purpose of this assignment is to allow the student
-            to practice modeling by editing an objects components.
+            built using multiple separate objects. <br /><br />Combine and group objects to match
+            the provided formations. Name groups and objects, center their pivots, freeze
+            transformations and delete all construction history. <br /><br />The purpose of this
+            assignment is to allow the student to practice modeling by editing an objects
+            components.
           </p>
         </div>
       </template>
@@ -143,11 +145,12 @@ const items = [
             and techniques that work best for you. Each object should be recreated to within .01
             units of accuracy. There are two groups of objects providing differing degrees of
             difficulty. Start with the simpler shapes, and then work your way to the more advanced
-            shapes. Each object should be modeled from a single contiguous starting object, and
-            should not be built using multiple separate objects. Group or combined each of your two
-            object groups, and make sure to Freeze all Transformations, and Delete Construction
-            History. The purpose of this assignment is to allow the student to practice using
-            different modeling tools to create specific abstract shapes from simple primitives.
+            shapes. <br /><br />Each object should be modeled from a single contiguous starting
+            object, and should not be built using multiple separate objects. Group or combined each
+            of your two object groups, and make sure to Freeze all Transformations, and Delete
+            Construction History. <br /><br />The purpose of this assignment is to allow the student
+            to practice using different modeling tools to create specific abstract shapes from
+            simple primitives.
           </p>
         </div>
       </template>
@@ -161,9 +164,9 @@ const items = [
             Working from reference images create an object of your choice (or, if you prefer, use
             the provided references). The object should be moderately complex and be clearly
             identifiable. Use the reference images as image planes to model from within Maya. Make
-            any adjustments necessary to the images so that they properly align in Maya. Use this
-            assignment to practice your modeling skills while applying them toward an artistic
-            purpose.
+            any adjustments necessary to the images so that they properly align in Maya.
+            <br /><br />Use this assignment to practice your modeling skills while applying them
+            toward an artistic purpose.
           </p>
         </div>
       </template>
@@ -261,10 +264,10 @@ const items = [
             poly as possible and have clean edge flow and QUAD topology whenever possible.
             <br /><br />Texturing: Maximum texture map resolution of 2048 px by 2048 px (you may use
             as many textures as necessary for your scene) All textures must be in a Power of 2
-            dimension (http://en.wikipedia.org/wiki/Power_of_two (Links to an external site.))
-            Utilizing tiling textures is recommended. <br /><br />Rendering: Use Maya to Compose,
-            light and render a scene containing the 3D Model Render in Arnold (preferred) or Maya
-            Software from at least 3 various angles. Image size no less than HD_720 resolution.
+            dimension. Utilizing tiling textures is recommended. <br /><br />Rendering: Use Maya to
+            Compose, light and render a scene containing the 3D Model Render in Arnold (preferred)
+            or Maya Software from at least 3 various angles. Image size no less than HD_720
+            resolution.
           </p>
         </div>
       </template></UAccordion
