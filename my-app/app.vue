@@ -103,10 +103,7 @@ const items = [
     <UAccordion color="primary" variant="outline" size="sm" :items="items">
       <template #project-1>
         <div class="flex flex-col justify-center items-center gap-1">
-          <img
-            class="object-cover h-48 w-96"
-            src="https://avatars.githubusercontent.com/u/56773210?v=4"
-            alt="Project Image" />
+          <img class="object-cover h-48 w-96" src="./media/P1/project1.png" alt="Project Image" />
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using the scene provided, create and position all necessary objects required to recreate
             each of the object groups. Each group must be created to be within .1 units (set to
