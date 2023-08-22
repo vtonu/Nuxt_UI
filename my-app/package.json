@@ -2,9 +2,9 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "build": "./node_modules/.bin/vue-cli-service build",
+    "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "./node_modules/.bin/vue-cli-service generate",
+    "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
