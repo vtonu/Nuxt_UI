@@ -103,7 +103,6 @@ const items = [
     <UAccordion color="primary" variant="outline" size="sm" :items="items">
       <template #project-1>
         <div class="flex flex-col justify-center items-center gap-1">
-          <img class="object-cover h-48 w-96" src="./media/P1/project1.png" alt="Project Image" />
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using the scene provided, create and position all necessary objects required to recreate
             each of the object groups. Each group must be created to be within .1 units (set to
@@ -111,14 +110,11 @@ const items = [
             exposure to the basic Maya navigation control, object creation tools, and basic
             manipulation tools.
           </p>
+          <img class="object-cover h-48 w-96" src="./media/P1/project1.png" alt="Project Image" />
         </div>
       </template>
       <template #project-2>
         <div class="flex flex-col justify-center items-center gap-1">
-          <img
-            class="object-cover h-48 w-96"
-            src="https://avatars.githubusercontent.com/u/56773210?v=4"
-            alt="Project Image" />
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using the provided scene, recreate each of the objects by creating objects, and editing
             their components. Each object should be recreated to within .01 units of accuracy. Each
@@ -129,14 +125,11 @@ const items = [
             assignment is to allow the student to practice modeling by editing an objects
             components.
           </p>
+          <img class="object-cover h-48 w-96" src="./media/P2/project2.png" alt="Project Image" />
         </div>
       </template>
       <template #project-3>
         <div class="flex flex-col justify-center items-center gap-1">
-          <img
-            class="object-cover h-48 w-96"
-            src="https://avatars.githubusercontent.com/u/56773210?v=4"
-            alt="Project Image" />
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using the provided scene, recreate each of the objects using whichever modeling tools
             and techniques that work best for you. Each object should be recreated to within .01
@@ -149,14 +142,11 @@ const items = [
             to practice using different modeling tools to create specific abstract shapes from
             simple primitives.
           </p>
+          <img class="object-cover h-48 w-96" src="./media/P3/project3.png" alt="Project Image" />
         </div>
       </template>
       <template #project-4>
         <div class="flex flex-col justify-center items-center gap-1">
-          <img
-            class="object-cover h-48 w-96"
-            src="https://avatars.githubusercontent.com/u/56773210?v=4"
-            alt="Project Image" />
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Working from reference images create an object of your choice (or, if you prefer, use
             the provided references). The object should be moderately complex and be clearly
@@ -165,14 +155,11 @@ const items = [
             <br /><br />Use this assignment to practice your modeling skills while applying them
             toward an artistic purpose.
           </p>
+          <img class="object-cover h-48 w-96" src="./media/P4/project4.png" alt="Project Image" />
         </div>
       </template>
       <template #project-5>
         <div class="flex flex-col justify-center items-center gap-1">
-          <img
-            class="object-cover h-48 w-96"
-            src="https://avatars.githubusercontent.com/u/56773210?v=4"
-            alt="Project Image" />
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Choose one of the following to model: <br /><br />Humanoid Figure - not necessarily
             human <br /><br />Interior Environment - a room with a entry or exit and at least 5
@@ -183,28 +170,24 @@ const items = [
             detailed shapes, adding geometry only when and where needed, and removing excess and
             unneeded geometry.
           </p>
+          <img class="object-cover h-48 w-96" src="./media/P5/project5.png" alt="Project Image" />
         </div>
       </template>
       <template #project-6>
         <div class="flex flex-col justify-center items-center gap-1">
-          <img
-            class="object-cover h-48 w-96"
-            src="https://avatars.githubusercontent.com/u/56773210?v=4"
-            alt="Project Image" />
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using the provided Maya file, set up the scene with proper 3 point lighting: create and
             name a key, fill and rim light; light the scene as realistically as possible; create and
             name a shot camera; using the shot camera render the scene from 3 unique angles using
             the Arnold renderer.
           </p>
+          <img class="object-cover h-48 w-96" src="./media/P6/Render1.jpg" alt="Project Image" />
+          <img class="object-cover h-48 w-96" src="./media/P6/Render2.jpg" alt="Project Image" />
+          <img class="object-cover h-48 w-96" src="./media/P6/Render3.jpg" alt="Project Image" />
         </div>
       </template>
       <template #project-7>
         <div class="flex flex-col justify-center items-center gap-1">
-          <img
-            class="object-cover h-48 w-96"
-            src="https://avatars.githubusercontent.com/u/56773210?v=4"
-            alt="Project Image" />
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using the scene provided, assign and adjust materials for each object in the scene. Name
             all materials and their respective shading groups. Similar objects can share materials.
@@ -212,14 +195,13 @@ const items = [
             Create a shot camera, light(s) and render the scene from 3 various angles. Always clean
             up your scenes and organize the outliner before submitting.
           </p>
+          <img class="object-cover h-48 w-96" src="./media/P7/Render1.jpg" alt="Project Image" />
+          <img class="object-cover h-48 w-96" src="./media/P7/Render2.jpg" alt="Project Image" />
+          <img class="object-cover h-48 w-96" src="./media/P7/Render3.jpg" alt="Project Image" />
         </div>
       </template>
       <template #project-8>
         <div class="flex flex-col justify-center items-center gap-1">
-          <img
-            class="object-cover h-48 w-96"
-            src="https://avatars.githubusercontent.com/u/56773210?v=4"
-            alt="Project Image" />
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Unwrap each of the polygonal models contained within the scene provided. The UV's should
             be laid out to maximize coverage of the UV space. <br /><br />Create and apply texture
@@ -231,14 +213,22 @@ const items = [
             <br /><br />This project will only work properly if you work inside of a Maya project
             directory and save it out correctly.
           </p>
+          <img
+            class="object-cover h-48 w-96"
+            src="./media/P8/GAME124_Tonu_P8_Render1.png"
+            alt="Project Image" />
+          <img
+            class="object-cover h-48 w-96"
+            src="./media/P8/GAME124_Tonu_P8_Render2.png"
+            alt="Project Image" />
+          <img
+            class="object-cover h-48 w-96"
+            src="./media/P8/GAME124_Tonu_P8_Render3.png"
+            alt="Project Image" />
         </div>
       </template>
       <template #project-9>
         <div class="flex flex-col justify-center items-center gap-1">
-          <img
-            class="object-cover h-48 w-96"
-            src="https://avatars.githubusercontent.com/u/56773210?v=4"
-            alt="Project Image" />
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Create a simple bouncing ball animation that moves the ball in 2 Directions - Vertical
             and horizontal. The ball should decelerate horizontally from an initial speed to a stop.
@@ -246,14 +236,15 @@ const items = [
             the ball's change through time. Use the graph editor to edit the animation curves to
             achieve the proper motion.
           </p>
+          <video
+            class="object-cover h-48 w-96"
+            src="./media/P9/project9.mp4"
+            alt="Project Video Bouncing Ball"
+            controls></video>
         </div>
       </template>
       <template #final-project>
         <div class="flex flex-col justify-center items-center gap-1">
-          <img
-            class="object-cover h-48 w-96"
-            src="https://avatars.githubusercontent.com/u/56773210?v=4"
-            alt="Project Image" />
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using all the skills you have learned up to this point create visually interesting 3D
             model/scene, texture it, light the scene, and render the scene.<br /><br />Final Polygon
@@ -266,9 +257,20 @@ const items = [
             or Maya Software from at least 3 various angles. Image size no less than HD_720
             resolution.
           </p>
-        </div>
-      </template></UAccordion
-    >
+          <img
+            class="object-cover h-48 w-96"
+            src="./media/P10/GAME124_Tonu_FinalProject_Render1.png"
+            alt="Project Image" />
+          <img
+            class="object-cover h-48 w-96"
+            src="./media/P10/GAME124_Tonu_FinalProject_Render2.png"
+            alt="Project Image" />
+          <img
+            class="object-cover h-48 w-96"
+            src="./media/P10/GAME124_Tonu_FinalProject_Render3.png"
+            alt="Project Image" />
+        </div> </template
+    ></UAccordion>
     <!-- <template #footer /> -->
   </UCard>
 </template>
