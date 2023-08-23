@@ -1,4 +1,5 @@
-Nuxt 3 won't deploy this to vercel and I don't know how to fix this. Next time I'll just stick with react. 
+Nuxt 3 won't deploy this to vercel and I don't know how to fix this. Next time I'll just stick with react.
+![image](https://github.com/vtonu/Nuxt_UI/assets/56773210/ea0e7e28-e895-4c6e-a728-98e4c62e63ed)
 
 Intro to Maya Project
 
