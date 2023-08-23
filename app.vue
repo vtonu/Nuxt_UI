@@ -76,7 +76,7 @@ const items = [
 </script>
 
 <template>
-  <UCard class="m-8 ring ring-green-500 ring-offset-2">
+  <UCard class="m-16 ring ring-green-500 ring-offset-2">
     <template #header>
       <ClientOnly>
         <UButton
@@ -102,19 +102,19 @@ const items = [
     </p>
     <UAccordion color="primary" variant="outline" size="sm" :items="items">
       <template #project-1>
-        <div class="flex flex-col justify-center items-center gap-1">
+        <div class="">
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using the scene provided, create and position all necessary objects required to recreate
             each of the object groups. Each group must be created to be within .1 units (set to
             centimeters) of accuracy. <br /><br />The purpose of this assignment is to give ample
             exposure to the basic Maya navigation control, object creation tools, and basic
-            manipulation tools.
+            manipulation tools.<br /><br />
           </p>
-          <img class="object-cover h-48 w-96" src="./media/P1/project1.png" alt="Project Image" />
+          <img class="object-cover" src="./media/P1/project1.png" alt="Project Image" />
         </div>
       </template>
       <template #project-2>
-        <div class="flex flex-col justify-center items-center gap-1">
+        <div class="">
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using the provided scene, recreate each of the objects by creating objects, and editing
             their components. Each object should be recreated to within .01 units of accuracy. Each
@@ -123,13 +123,13 @@ const items = [
             the provided formations. Name groups and objects, center their pivots, freeze
             transformations and delete all construction history. <br /><br />The purpose of this
             assignment is to allow the student to practice modeling by editing an objects
-            components.
+            components.<br /><br />
           </p>
-          <img class="object-cover h-48 w-96" src="./media/P2/project2.png" alt="Project Image" />
+          <img class="object" src="./media/P2/project2.png" alt="Project Image" />
         </div>
       </template>
       <template #project-3>
-        <div class="flex flex-col justify-center items-center gap-1">
+        <div class="">
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using the provided scene, recreate each of the objects using whichever modeling tools
             and techniques that work best for you. Each object should be recreated to within .01
@@ -140,22 +140,22 @@ const items = [
             of your two object groups, and make sure to Freeze all Transformations, and Delete
             Construction History. <br /><br />The purpose of this assignment is to allow the student
             to practice using different modeling tools to create specific abstract shapes from
-            simple primitives.
+            simple primitives.<br /><br />
           </p>
-          <img class="object-cover h-48 w-96" src="./media/P3/project3.png" alt="Project Image" />
+          <img class="object" src="./media/P3/project3.png" alt="Project Image" />
         </div>
       </template>
       <template #project-4>
-        <div class="flex flex-col justify-center items-center gap-1">
+        <div class="">
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Working from reference images create an object of your choice (or, if you prefer, use
             the provided references). The object should be moderately complex and be clearly
             identifiable. Use the reference images as image planes to model from within Maya. Make
             any adjustments necessary to the images so that they properly align in Maya.
             <br /><br />Use this assignment to practice your modeling skills while applying them
-            toward an artistic purpose.
+            toward an artistic purpose.<br /><br />
           </p>
-          <img class="object-cover h-48 w-96" src="./media/P4/project4.png" alt="Project Image" />
+          <img class="object" src="./media/P4/project4.png" alt="Project Image" />
         </div>
       </template>
       <template #project-5>
@@ -168,13 +168,13 @@ const items = [
             create your model. The model should be created as realistic as possible. Focus on
             modeling in passes - start with the big simple shapes, and work toward more and more
             detailed shapes, adding geometry only when and where needed, and removing excess and
-            unneeded geometry.
+            unneeded geometry.<br /><br />
           </p>
-          <img class="object-cover h-48 w-96" src="./media/P5/project5.png" alt="Project Image" />
+          <img class="object" src="./media/P5/project5.png" alt="Project Image" />
         </div>
       </template>
       <template #project-6>
-        <div class="flex flex-col justify-center items-center gap-1">
+        <div class="flex justify-center items-center gap-1">
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using the provided Maya file, set up the scene with proper 3 point lighting: create and
             name a key, fill and rim light; light the scene as realistically as possible; create and
@@ -187,7 +187,7 @@ const items = [
         </div>
       </template>
       <template #project-7>
-        <div class="flex flex-col justify-center items-center gap-1">
+        <div class="flex justify-center items-center gap-1">
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using the scene provided, assign and adjust materials for each object in the scene. Name
             all materials and their respective shading groups. Similar objects can share materials.
@@ -201,7 +201,7 @@ const items = [
         </div>
       </template>
       <template #project-8>
-        <div class="flex flex-col justify-center items-center gap-1">
+        <div class="flex justify-center items-center gap-1">
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Unwrap each of the polygonal models contained within the scene provided. The UV's should
             be laid out to maximize coverage of the UV space. <br /><br />Create and apply texture
@@ -228,23 +228,19 @@ const items = [
         </div>
       </template>
       <template #project-9>
-        <div class="flex flex-col justify-center items-center gap-1">
+        <div class="">
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Create a simple bouncing ball animation that moves the ball in 2 Directions - Vertical
             and horizontal. The ball should decelerate horizontally from an initial speed to a stop.
             The Ball should bounce vertically at least 3 times. Use key frame animation to Animate
             the ball's change through time. Use the graph editor to edit the animation curves to
-            achieve the proper motion.
+            achieve the proper motion.<br /><br />
           </p>
-          <video
-            class="object-cover h-48 w-96"
-            src="./media/P9/project9.mp4"
-            alt="Project Video Bouncing Ball"
-            controls></video>
+          <video src="./media/P9/project9.mp4" alt="Project Video Bouncing Ball" controls></video>
         </div>
       </template>
       <template #final-project>
-        <div class="flex flex-col justify-center items-center gap-1">
+        <div class="">
           <p class="text-sm text-gray-500 dark:text-gray-400">
             Using all the skills you have learned up to this point create visually interesting 3D
             model/scene, texture it, light the scene, and render the scene.<br /><br />Final Polygon
@@ -255,20 +251,11 @@ const items = [
             dimension. Utilizing tiling textures is recommended. <br /><br />Rendering: Use Maya to
             Compose, light and render a scene containing the 3D Model Render in Arnold (preferred)
             or Maya Software from at least 3 various angles. Image size no less than HD_720
-            resolution.
+            resolution.<br /><br />
           </p>
-          <img
-            class="object-cover h-48 w-96"
-            src="./media/P10/GAME124_Tonu_FinalProject_Render1.png"
-            alt="Project Image" />
-          <img
-            class="object-cover h-48 w-96"
-            src="./media/P10/GAME124_Tonu_FinalProject_Render2.png"
-            alt="Project Image" />
-          <img
-            class="object-cover h-48 w-96"
-            src="./media/P10/GAME124_Tonu_FinalProject_Render3.png"
-            alt="Project Image" />
+          <img src="./media/P10/GAME124_Tonu_FinalProject_Render2.png" alt="Project Image" />
+          <img src="./media/P10/GAME124_Tonu_FinalProject_Render3.png" alt="Project Image" />
+          <img src="./media/P10/GAME124_Tonu_FinalProject_Render1.png" alt="Project Image" />
         </div> </template
     ></UAccordion>
     <!-- <template #footer /> -->
