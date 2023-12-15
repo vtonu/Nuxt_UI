@@ -1,4 +1,4 @@
-Intro to Maya Project
+A NuxtJS Project using Vue, NuxtLabs UI & TailwindCSS - Intro to Maya Class
 
 ![image](https://github.com/vtonu/Nuxt_UI/assets/56773210/6bd4f6cd-9dd6-4175-b6dc-9bd0fc9fb84f)
 
